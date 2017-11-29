@@ -58,7 +58,7 @@ namespace BloxEditor
 
 		public BloxBlockEd(BloxBlock b, BloxBlockEd prev, BloxBlockEd parentBlock, BloxBlockEd owningBlock, int fieldIdx)
 		{
-            UnityEngine.Debug.Log("BloxBlockEd init"+ b.returnType);
+            UnityEngine.Debug.Log("BloxBlockEd init"+ b.returnType+b+ owningBlock);
 			this.b = b;
 			this.def = BloxEd.Instance.FindBlockDef(b);
 			this.prev = prev;

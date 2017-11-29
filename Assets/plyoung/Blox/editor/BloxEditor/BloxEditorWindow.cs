@@ -2073,7 +2073,11 @@ namespace BloxEditor
             }
             return bloxBlock;
         }
-
+        /// <summary>
+        /// ¸´ÖÆ»ýÄ¾
+        /// </summary>
+        /// <param name="source"></param>
+        /// <returns></returns>
         private BloxBlock CopyBlock(BloxBlock source)
         {
             if (source == null)

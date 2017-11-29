@@ -17,4 +17,8 @@ public class NewBehaviourScript : MonoBehaviour {
     {
         Debug.Log(a);
     }
+    public int MyValue(int a)
+    {
+        return a;
+    }
 }
