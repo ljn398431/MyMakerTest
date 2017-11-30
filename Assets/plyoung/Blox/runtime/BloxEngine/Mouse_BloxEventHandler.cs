@@ -64,6 +64,7 @@ namespace BloxEngine
 
 		public override void AddEvent(BloxEvent ev)
 		{
+            Debug.Log("@@@@@@@@ AddEvent");
 			if ("Input/OnMouseDrag".Equals(ev.ident))
 			{
 				this.onDragEvents.Add(ev);
